@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Country</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h1{
+background-color:black;
+color:white;
+}
+button {
+  background-color: black;
+  color:white;
+}
+
+
+.bg{
+     background-image: url("image.png");
+
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+</style>
+</head>
+<body  style="text-align:center;">
+   <div class="bg">
+
+<h1>VISIT THE WORLD IN A CLICK</h1>
+
+    <!-- oninput="queryCountries()" -->
+    <form onsubmit="queryCountries(event)">
+       <br>
+        <br>
+        <input type="text"  size="40" id="countryStr"  oninput="queryCountries(event)" />
+      
+        <button type="submit" >Search</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div id="country-container" class="container"></div>
+</div>
+   
+   
+   
+    
+</body>
+</html>
