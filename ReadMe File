@@ -1,0 +1,7 @@
+# ProjectUsingHTMLJS
+This is the final version of the project.
+
+* This is a project to search from a list of countries and retrieve the details of each country.
+* On search, we get the searched country name in form of cards.
+* On click of card , we get the details of the country such as Capital,country code , population, region , timezones etc in the form of a table.
+* If the searched country is not present, we get an error message. 
